@@ -1,0 +1,115 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align:center;
+    display: block;
+    font-family: "Merriweather", serif;
+    size: 5.6rem;
+    overflow-x: hidden;
+    
+
+  }
+  h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    /* font-family: 'Dancing Script', cursive; */
+  }
+  h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Apply animation to cloud images */
+  .top-cloud,
+  .bottom-cloud {
+    position: absolute;
+    animation: moveLeftToRight 10s linear infinite; /* Adjust the duration as needed */
+    overflow: auto;
+  }
+  
+  .middle-container{
+    margin-top: 100px;
+  }
+  .bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+  }
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Apply animation to skill image container */
+  .sk-container {
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: moveLeftToRight 20s linear infinite; /* Adjust the duration as needed */
+  }
+  .contact-message {
+    width: 37%;
+    margin: 40px auto 60px;
+  }
+  .btn{
+    background-color: #11999e;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: #30e3cb;
+  }
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  .footer-link{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+  }
